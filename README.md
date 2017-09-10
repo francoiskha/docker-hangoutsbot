@@ -1,9 +1,9 @@
 docker-hangoutsbot
 ==================
 
-Docker image for [Hangoutsbot](https://github.com/hangoutsbot/hangoutsbot) client.
+Forked from [PHLAK/docker-hangoutsbot](https://github.com/PHLAK/docker-hangoutsbot/)
 
-[![](https://images.microbadger.com/badges/image/phlak/hangoutsbot.svg)](http://microbadger.com/#/images/phlak/hangoutsbot "Get your own image badge on microbadger.com")
+Docker image for [Hangoutsbot](https://github.com/hangoutsbot/hangoutsbot) client.
 
 Running the Container
 ---------------------
@@ -36,11 +36,6 @@ a daemonized instance of the bot image:
                              start it on daemon startup if the container has been put to a stopped
                              state before. See the Docker [restart policies](https://goo.gl/Y0dlDH)
                              for additional details.
-
-Troubleshooting
----------------
-
-Please report bugs to the [GitHub Issue Tracker](https://github.com/PHLAK/docker-hangoutsbot/issues).
 
 Copyright
 ---------

@@ -25,6 +25,8 @@ RUN apk add --update ca-certificates gcc git python3-dev tar tzdata wget \
 # Set running user
 USER hangoutsbot
 
+EXPOSE 8081
+
 # Set volumes
 VOLUME /etc/hangoutsbot
 
